@@ -32,8 +32,9 @@ python pipeline.py -h
 ```
 ### Examples
 * Extract only explicit discourse relations from raw text data, run following command:
+```Bash
 python pipeline.py -d /path/to/data/directory -o /path/to/output/directory -p -e
-
+```
 ### Output Format
 * For the purpose of conducting further ASER relation extraction based on the discourse output, the <final_output.json> has the following format, for your reference:
 It has a json object per line, with format:  
