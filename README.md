@@ -36,7 +36,7 @@ python pipeline.py -d /path/to/data/directory -o /path/to/output/directory -p -e
 
 ### Output Format
 * For the purpose of conducting further ASER relation extraction based on the discourse output, the <final_output.json> has the following format, for your reference:
-It has a json object per line, with format:
+It has a json object per line, with format:  
 {“ID”: 0,    
 “DocID”: “the doc name”,    
 “Arg1”: {“TokenList”: [28, 29, 30, …]},    
