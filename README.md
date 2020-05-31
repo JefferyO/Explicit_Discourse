@@ -16,7 +16,7 @@ Initially designed for reconstruct [ASER Knowledge Graph](https://hkust-knowcomp
 ```Bash
 java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
 ```
-more details at [CoreNLP website]:(https://stanfordnlp.github.io/CoreNLP/corenlp-server.html)
+more details at [CoreNLP website](https://stanfordnlp.github.io/CoreNLP/corenlp-server.html)
 * Following are commands provided for the parser:
   * Required:
   [-d] / [--data]: The input data directory, as specified in II
